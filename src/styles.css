@@ -1,0 +1,107 @@
+body {
+    background-color: darkblue;
+    color: white; 
+    font-family: Arial, sans-serif; 
+  }
+  h1 {
+    text-decoration: underline;
+  }
+  h2 {
+    text-align: center; 
+    margin: 10px; 
+  }
+  
+  #connectWallet {
+    text-align: right; 
+    margin: 10px; 
+  }
+  
+  #connectButton {
+    background-color: white; 
+    color: darkblue; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+  }
+  
+  button:hover {
+    cursor: pointer; 
+    background-color: lightgray; 
+  }
+  
+  #header {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 50px; 
+  }
+  
+  #header h1 {
+    font-size: 3em; 
+  }
+  
+  #header p {
+    text-align: center; 
+    line-height: 1.5; 
+    max-width: 800px; 
+    margin: 10px;
+  }
+  
+  #votingStage {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 500px; 
+    width: 800px; 
+    border: solid white 2px;
+    margin: 50px auto; 
+  }
+  
+  #currentVoteTitle {
+    text-align: center; 
+  }
+  
+  #pollContainer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 600px; 
+    margin-top: 50px; 
+  }
+  
+  #optionA, #optionB {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 200px;
+    width: 200px;
+    border: solid black 2px;
+  }
+  
+  #titleOptionA, #titleOptionB {
+    margin: 10px; 
+  }
+  
+  .hl {
+    width: 100%; 
+    border-top: solid white 2px; 
+    margin: 10px; 
+  }
+  
+  .vl {
+    border-left: solid white 2px; 
+    height: 100%; 
+    margin: 10px; 
+  }
+  #voteButton {
+    background-color: white; 
+    color: darkblue; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    margin-top: 50px; 
+
+  }
+  
